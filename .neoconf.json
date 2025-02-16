@@ -1,0 +1,17 @@
+{
+  "neodev": {
+    "library": {
+      "enabled": true,
+      "plugins": ["plenary.nvim"],
+      "types": true
+    }
+  },
+  "neoconf": {
+    "plugins": {
+      "lua_ls": { "enabled": true }
+    }
+  },
+  "lspconfig": {
+    "lua_ls": {}
+  }
+}
