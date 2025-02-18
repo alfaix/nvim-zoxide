@@ -66,8 +66,9 @@ with appropriate context should
 be sufficient.
 
 ## Alternatives
-Just the telescope integration: [telescope-zoxide][https://github.com/jvgrootveld/telescope-zoxide]. They also do extra pattern-based sorting on top of native zoxide.
-Vimscript plugin (no telescope): [zoxide.vim][https://github.com/nanotee/zoxide.vim/tree/master]
+* Just the telescope integration: [telescope-zoxide](https://github.com/jvgrootveld/telescope-zoxide).
+They also do extra pattern-based sorting on top of native zoxide.
+* Vimscript plugin (no telescope): [zoxide.vim](https://github.com/nanotee/zoxide.vim/tree/master)
 
 [zoxide]: https://github.com/ajeetdsouza/zoxide
 [lazy.nvim]: https://github.com/folke/lazy.nvim/
