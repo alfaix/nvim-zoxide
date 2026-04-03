@@ -56,7 +56,7 @@ function M.cd(context, directory)
   if directory ~= nil then
     local cmd = COMMAND_BY_SCOPE[context.scope]
     M.increment(directory)
-    vim.cmd(string.format("%s %s", cmd, directory))
+    vim.cmd(string.format("%s %s", cmd, vim.fn.fnameescape(directory)))
   end
 end
 
